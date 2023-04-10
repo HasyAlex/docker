@@ -9,14 +9,18 @@
 
 
 Docker Client --> Docker Daemon --> HOST (Local Store)
+<br/>
                                 ----> DockerHub-|  
+<br/>
                             <----------PULL-----|          
 >docker images
 
 ** How to create container from docker image **
 >docker pull <alpine>
 >docker run -it <alpine>
+<br/>
 #ls
+<br/>
 #exit
 
 ** Start Exited container again**
