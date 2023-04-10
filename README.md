@@ -8,10 +8,8 @@
 >docker ps -a
 
 
-Docker Client --> Docker Daemon --> HOST (Local Store)
-<br/>
-                                ----> DockerHub-|  
-<br/>
+Docker Client --> Docker Daemon --> HOST (Local Store)<br/>
+                                ----> DockerHub-|  <br/>
                             <----------PULL-----|          
 >docker images
 
